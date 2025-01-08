@@ -117,7 +117,7 @@ Partial Class Form1
         bibilhin.FormattingEnabled = True
         bibilhin.ItemHeight = 15
         bibilhin.Items.AddRange(New Object() {"Sinigang mix", "Paminta ", "luya ", "bawang ", "sibuyas ", "Kamatis", "Suka ", "Orayt"})
-        bibilhin.Location = New Point(271, 12)
+        bibilhin.Location = New Point(256, 12)
         bibilhin.Name = "bibilhin"
         bibilhin.Size = New Size(142, 109)
         bibilhin.TabIndex = 9
@@ -141,6 +141,7 @@ Partial Class Form1
         Name = "Form1"
         Tag = "button"
         Text = "Sheesh"
+        WindowState = FormWindowState.Maximized
         ResumeLayout(False)
         PerformLayout()
     End Sub
