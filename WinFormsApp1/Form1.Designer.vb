@@ -125,6 +125,7 @@ Partial Class Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackgroundImage = My.Resources.Resources.Base_Profile_Screenshot_2024_01_09___14_21_24_92
         ClientSize = New Size(748, 392)
         Controls.Add(bibilhin)
         Controls.Add(Label4)
