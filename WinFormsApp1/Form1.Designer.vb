@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Button1 = New Button()
         Button2 = New Button()
         tfirstname = New TextBox()
@@ -125,8 +126,8 @@ Partial Class Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        BackgroundImage = My.Resources.Resources.Base_Profile_Screenshot_2024_01_09___14_21_24_92
-        ClientSize = New Size(748, 392)
+        BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
+        ClientSize = New Size(727, 374)
         Controls.Add(bibilhin)
         Controls.Add(Label4)
         Controls.Add(Label3)
